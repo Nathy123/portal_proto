@@ -1,0 +1,90 @@
+
+header {
+  width:auto%;
+  background-color:#white;
+  font-family:Arial;
+  margin:1%;
+  padding:2%;
+}
+
+#pageInfo{
+  float:right; 
+  background-color:#CDCCCD;    
+}
+
+body {
+  font-family:Arial;
+  background-image:url('colorful-paint-drops-wallpaper.jpg');
+  background-repeat:no-repeat;
+}
+
+#left_panel{
+  width:auto%;
+  padding:5%;
+  text-align:center;
+}
+
+#lpHeader{
+  width:auto%;
+  text-align:left;
+  background-color:#CDCCCD;    
+}
+
+#right_panel{
+  width:auto;
+  text-align:center;
+  display:none;
+}
+
+#rpHeader{
+  width:auto;
+  text-align:left;
+  background-color:#CDCCCD;    
+  display:none;
+}
+
+
+.column{
+  display:inline-table;   
+  text-overflow:clip;    
+  margin:1.25%;
+  background-color:#CDCCCD;    
+  width:30%;
+  height:20%;
+  border:solid;    
+  height:auto;
+      
+}
+
+#column_holder{  
+  width:100%;
+  text-align: center;  
+  opacity: 1;
+  transition:opacity 1s;
+}  
+
+
+#central_panel{
+  width:auto;
+  background-color:#CDCCCD;    
+  padding:5%;
+}
+
+button{
+border:2px solid #333;
+}
+
+#toolPanel{  
+  
+  transition:width 1s;     
+  transition:height 1s;
+} 
+
+#toolPanel:hover{   
+width:60%;   
+position:absolute;
+padding:10%;  
+}    
+
+
+
